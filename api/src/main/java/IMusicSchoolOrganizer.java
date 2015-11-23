@@ -2,8 +2,8 @@ import java.util.List;
 
 
 public interface IMusicSchoolOrganizer {
-    void addNewStudent(Student student, SchoolClass schoolClass);
-    void deleteStudentFromClass(Student student, SchoolClass schoolClass);
-    List<Student> getAllStudents();
-    List<Student> getStudentsFromClass(SchoolClass schoolClass);
+    void addNewStudent(IStudent student, ISchoolClass schoolClass);
+    void deleteStudentFromClass(IStudent student, ISchoolClass schoolClass);
+    List<IStudent> getAllStudents();
+    List<IStudent> getStudentsFromClass(ISchoolClass schoolClass);
 }
