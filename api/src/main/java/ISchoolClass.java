@@ -1,6 +1,6 @@
 /**
  * Created by v.golub on 21.11.2015.
  */
-public interface SchoolClass {
+public interface ISchoolClass {
     String name = null;
 }

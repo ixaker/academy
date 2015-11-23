@@ -1,8 +1,8 @@
 
 
-public interface Student {
+public interface IStudent {
     String firstName = null;
     String secondName = null;
     int age = 0;
-    SchoolClass schoolClass = null;
+    ISchoolClass schoolClass = null;
 }

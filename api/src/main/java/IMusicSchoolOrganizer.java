@@ -1,7 +1,7 @@
 import java.util.List;
 
 
-public interface MusicSchoolOrganizer {
+public interface IMusicSchoolOrganizer {
     void addNewStudent(Student student, SchoolClass schoolClass);
     void deleteStudentFromClass(Student student, SchoolClass schoolClass);
     List<Student> getAllStudents();

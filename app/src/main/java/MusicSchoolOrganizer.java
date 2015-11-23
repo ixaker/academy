@@ -1,5 +1,3 @@
-package implementations;
-
 /**
  * Created by v.golub on 21.11.2015.
  */
