@@ -1,3 +1,4 @@
-public class SchoolClass{
-    //?
+
+public class SchoolClass implements ISchoolClass{
+
 }
